@@ -1,14 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,100);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
-/* usage (sccss):
-  @include breakpoint(large) { width: 60%; }
-
-  in css = >@media (min-width: 37.5em) {
-  .page-wrap {
-    width: 95%;
-  }
-} */
 
 html, body {
   font-size: 100%;
@@ -559,12 +551,7 @@ footer {
      margin-bottom: 100px;
    }
 
-
-
-
 /***********MEDIA QUERIES*******/
-
-
 
 @media all and (max-width:750px){
   #description {
@@ -630,7 +617,6 @@ footer {
   margin-top: 20px;
 }
 
-
  #skills_title{
   margin-top: 200px;
  }
@@ -640,8 +626,6 @@ footer {
   font-family: 'Roboto';
   font-size: 16px;
  }
-
-
 
 
 /*# sourceMappingURL=style.css.map */
